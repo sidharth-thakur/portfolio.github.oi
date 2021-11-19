@@ -324,7 +324,7 @@ footer .r-icon a:hover {
   transition: 0.5s all;
 }
 /* Media-------------------------------------------------------------------------------- */
-@media (min-width: 200px) and (max-width: 768px) {
+@media (min-width: 200px) and (max-width: 350px) {
   .r-nav {
     background: #fff !important;
   }
