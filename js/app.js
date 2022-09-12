@@ -118,3 +118,12 @@ $('a').smoothScroll({
 
 });
 
+const note = document.getElementById("note");
+
+note.addEventListener("click", () => {
+  Notification.requestPermission().then((perm) => {
+    if (perm === "granted") {
+      new Notification("Its ok");
+    }
+  });
+});
